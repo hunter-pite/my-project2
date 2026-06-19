@@ -93,15 +93,34 @@ button{
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
-    /*background: url('../image/btnbg.jpg'), #000;
-  background-position: center;
-  background-size: cover;*/
-  background-color: #F7F1DE/*F3E4C9#EFE9E3#A0D8FF*/;
+  background-color: #F7F1DE;
     border: none;
     
      &:hover{
-        background: #FDEB9E;
+        background: #F3E4C9;
         scale: scale(1.05);
     } 
 }
+@media (max-width: 425px) {
+    #content {
+        font-size: xx-small;
+        height: 100%;
+        width: 100%;
 
+    }
+    .table{
+        height: 4rem;
+    }
+    button{
+        font-size: 1.2em;
+        height: 2rem;
+    }
+    tr{
+        height: 0.5rem;
+        padding: 0;
+    }
+    input{
+        font-size: 10px;
+        height: 1rem;
+    }
+}
