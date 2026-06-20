@@ -1,2 +1,2 @@
 # my-project2
-computing grades
+Grades Calculation
